@@ -175,22 +175,79 @@ using namespace std;
 
 //#10
 
-int main() {
-    string c;
-    cout << "Do whatever you want";
-    cin>> c;
-    do {
+// int main() {
+//     string c;
 
+//     do {
+//         cout << "Do whatever you want:" << endl;
+//         cin>> c;
+//         if(c=="Exit") {
+//             cout<<"Goodbye";
+//             break;
+//         }
+//         else {
+//             cout<<"nice "<<endl;
+//         }
+//     }while(c!="Exit");
 
-        if(c=="Exit") {
-            cout<<"Goodbye";
-            break;
-        }
-        else {
-            cout<<"nice ";
-            cin>>c;
-        }
-    }while(c!="Exit");
+//     return 0;
+// }
 
-    return 0;
-}
+//#11
+// int main() {
+//     int a,b,result=0;
+//     string action;
+//     cout<<"Enter 2 numbers number:";
+//     cin>>a>>b;
+//     do {
+//         cout<<"Choose action:";
+//         cin>>action;
+//         if(action=="add") {
+//             result=a+b;
+//         }else if(action=="sub") {
+//             result=a-b;
+//         }else if(action=="mul") {
+//             result=a*b;
+//         }else if(action=="div") {
+//             result=a/b;
+//         }else {
+//             cout<<"Wrong action";
+//         }
+//         cout<<result<<endl;
+//     }while(action!="exit");
+// }
+
+//#12
+
+// int main() {
+//     int password,count=3,real=1234;
+//     do {
+//         cout<<"Enter password: ";
+//         cin>>password;
+//         if(password!=real) {
+//             count--;
+//             cout<<"Wrong password!"<<endl;
+//         }else {
+//             cout<<"Access granted"<<endl;
+//             break;
+//         }
+//     }while (count>0);
+// }
+
+//#13
+// int main() {
+//     int guess,real=1234;
+//     do {
+//         cout<<"Enter number: ";
+//         cin>>guess;
+//         if(guess!=real && guess<1234) {
+//             cout<<"Too low!"<<endl;
+//         }
+//         else if (guess!=real && guess>1234) {
+//             cout<<"Too high!"<<endl;
+//         }else {
+//             cout<<"Correct"<<endl;
+//             break;
+//         }
+//     }while (guess!=real);
+// }
